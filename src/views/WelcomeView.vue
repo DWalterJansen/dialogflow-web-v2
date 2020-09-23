@@ -9,7 +9,7 @@
     <!-- Agent Description -->
     <div
       class="agent-description"
-    >Tire suas dúvidas e faça sua avaliação de risco sobre o Câncer de Mama. Basta mandar um "Oi"</div>
+    >Eu sou o Dr. Presente e estou aqui para te ajudar a saber mais sobre o Câncer de Mama. Basta mandar um "Oi"</div>
 
     <!-- Language picker, if your Agent supports more than one language -->
     <!-- <div v-if="agent.supportedLanguageCodes && agent.supportedLanguageCodes.length > 0" class="language-picker">

@@ -21,7 +21,7 @@
     justify-content: space-between
 
     &[href]
-        color: var(--accent)
+        color: #fe6198
 
 .rich-card-button-title
     flex: 1
