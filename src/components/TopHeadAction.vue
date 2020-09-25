@@ -2,7 +2,7 @@
   <!-- <button class="top-head-action" :title="title" :aria-label="title">
     <i aria-hidden="true" class="material-icons">{{icon}}</i>
   </button>-->
-  <img class="laco-oncologia" src="../assets/img/laço_rosa.png" height="40px" alt />
+  <img class="laco-oncologia" src="../assets/img/laço_rosa.png" height="60px" alt />
 </template>
 
 <style lang="sass" scoped>

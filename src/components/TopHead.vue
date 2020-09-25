@@ -33,8 +33,9 @@
   flex: 1 0 0
 
 .top-head-icon
-  width: 30px
-  height: 40px
+  padding-top: 5px
+  width: 50px
+  height: 60px
   object-fit: cover
 
 .top-head-info
