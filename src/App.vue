@@ -431,18 +431,24 @@
 @import '@/style/theme.sass'
 
 body
-    margin: 0
-    padding: 0
-    font-family: var(--font)
-    font-display: swap
-    background-color: #fedade
-    background-repeat: no-repeat
-    background-attachment: fixed
+  background-image: url('../src/assets/img/bg2.png')
+  
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  background-size: cover
+  -o-background-size: cover
+  margin: 0
+  padding: 0
+  font-family: var(--font)
+  font-display: swap
+  background-color: #fedade
+  background-repeat: no-repeat
+  background-attachment: fixed
 
 .chat
-    max-width: var(--container-width)
-    margin: auto auto
-    padding: 70px 12px 112px 12px
+  max-width: var(--container-width)
+  margin: auto auto
+  padding: 70px 12px 112px 12px
 </style>
 
 <script>
