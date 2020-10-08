@@ -1,6 +1,6 @@
 export default {
     // endpoint: 'https://dialogflow-web-v2.core.ushaflow.io', // <- enter your gateway URL here
-    endpoint: 'https://anemia-umlj.web.ushaflow.io/', // <- enter your gateway URL here
+    endpoint: 'https://anemia-umlj.core.ushaflow.io', // <- enter your gateway URL here
     muted: true, // <- mute microphone at start
     start_suggestions: [], // <- array of suggestions, displayed at the start screen
     fallback_lang: 'en', // <- fallback language code, if history mode or network is unavailable
