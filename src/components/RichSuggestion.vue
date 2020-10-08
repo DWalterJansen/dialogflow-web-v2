@@ -17,7 +17,7 @@
     display: inline-block
     padding: 8px 12px
     border-radius: 40px
-    border: 1px solid #fe6198
+    border: 1px solid #0093d9
     color: var(--text-primary)
     cursor: pointer
     margin-right: 6px

@@ -1,10 +1,10 @@
 <template>
   <header class="top-head">
     <div class="top-head-container">
-      <img class="top-head-icon" src="../assets/img/DrPresente_v2.png" :alt="agent.displayName" />
+      <img class="top-head-icon" src="https://i.imgur.com/Y6N0N3s.png" :alt="agent.displayName" />
       <div class="top-head-info">
-        <div class="top-head-title">dr.presente</div>
-        <div class="top-head-subtitle">Outubro Rosa - Previna-se</div>
+        <!-- <div class="top-head-title">dr.presente</div> -->
+        <div class="top-head-title">Suspeita de anemia?</div>
       </div>
     </div>
     <slot />
@@ -33,9 +33,10 @@
   flex: 1 0 0
 
 .top-head-icon
-  padding-top: 5px
-  width: 50px
-  height: 60px
+  padding-top: 3px
+  padding-left: 15px
+  width: 110px
+  height: 40px
   object-fit: cover
 
 .top-head-info
@@ -43,9 +44,10 @@
   margin-left: 12px
 
 .top-head-title
-  font-size: 18px
+  font-size: 24px
   color: var(--text-title)
   line-height: 15px
+  font-weight: bold
 
 .top-head-subtitle
   color: var(--text-title)

@@ -3,11 +3,11 @@
     <!-- TopHead is the header with the information about the app -->
     <TopHead v-if="agent && messages.length > 0" :agent="agent">
       <!-- Audio toggle (on the top right corner), used to toggle the audio output, default mode is defined in the settings -->
-      <TopHeadAction
+      <!-- <TopHeadAction
         :title="muted ? (translations[lang()] && translations[lang()].unMuteTitle) || translations[config.fallback_lang].unMuteTitle : (translations[lang()] && translations[lang()].muteTitle) || translations[config.fallback_lang].muteTitle"
         :icon="muted ? 'volume_off': 'volume_up'"
         @click.native="muted = !muted"
-      />
+      /> -->
     </TopHead>
     <section class="chat">
       <!-- Error component is for displaying errors -->
@@ -431,7 +431,7 @@
 @import '@/style/theme.sass'
 
 body
-  background-image: url('../src/assets/img/bg2.png')
+  
   
   -webkit-background-size: cover
   -moz-background-size: cover
@@ -441,7 +441,7 @@ body
   padding: 0
   font-family: var(--font)
   font-display: swap
-  background-color: #fedade
+  background-color: #0093d9
   background-repeat: no-repeat
   background-attachment: fixed
 

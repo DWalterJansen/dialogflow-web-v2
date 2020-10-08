@@ -23,7 +23,6 @@
         <!-- Send message button (arrow button) -->
         <transition name="chat-field-button-animation" mode="out-in">
           <button
-            v-if="!microphone && query.length > 0 || !microphone_supported"
             key="send"
             class="chat-field-action"
             :title="(translations[lang()] && translations[lang()].sendTitle) || translations[config.fallback_lang].sendTitle"
@@ -34,7 +33,7 @@
           </button>
 
           <!-- Microphone Button -->
-          <button
+          <!-- <button
             v-else
             key="microphone"
             class="chat-field-action"
@@ -44,7 +43,7 @@
             @click="microphone = !microphone"
           >
             <i class="material-icons" aria-hidden="true">mic</i>
-          </button>
+          </button> -->
         </transition>
       </div>
     </div>
@@ -95,7 +94,7 @@
   padding: 10px 10px
   border-radius: 40px
   background-color: #ffffff
-  color: #fe6198
+  color: #0093d9
   font-size: 24px
   display: flex
 
