@@ -36,14 +36,14 @@
     text-overflow: ellipsis
 
 .rich-card-subtitle
-    font-size: 16px
+    font-size: 18px
     line-height: 32px
     color: var(--text-element)
 
 .rich-card-text
     line-height: 24px
-    font-size: 14px
-    color: var(--text-secondary)
+    font-size: 16px
+    color: var(--text-element)
     white-space: normal
 
 .rich-card-actions

@@ -65,7 +65,7 @@
   color: var(--destaque)
 
 .agent-description
-  font-size: 16px
+  font-size: 18px
   color: var(--accent)
   padding-top: 30px
   padding-bottom: 20px
