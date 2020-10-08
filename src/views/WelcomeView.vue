@@ -9,10 +9,10 @@
     <img class="agent-head-icon" src="https://i.imgur.com/0DORkTh.png" alt="drpresente-logo">
 
     <!-- Agent Description -->
-    <img class="agent-banner" src="https://i.imgur.com/vSWISzi.png" alt="Banner Teste Anemia">
-    <!-- <div class="agent-title">
+    <!-- <img class="agent-banner" src="https://i.imgur.com/vSWISzi.png" alt="Banner Teste Anemia"> -->
+    <div class="agent-title">
       Suspeita de <span class="agent-destaque">anemia</span>?
-    </div> -->
+    </div>
     <div class="agent-description">
       Realize o seu teste rápido de anemia e ainda encontre médicos especializados que vão te ajudar a entender mais sobre o assunto. Para começar digite "Oi".
     </div>
