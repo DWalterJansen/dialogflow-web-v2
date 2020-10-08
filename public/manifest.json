@@ -2,12 +2,12 @@
     "name": "appname",
     "short_name": "appname",
     "icons": [{
-            "src": "DrPresente.png",
+            "src": "h.png",
             "sizes": "16x16",
             "type": "image/png"
         },
         {
-            "src": "DrPresente.png",
+            "src": "h.png",
             "sizes": "32x32",
             "type": "image/png"
         }
