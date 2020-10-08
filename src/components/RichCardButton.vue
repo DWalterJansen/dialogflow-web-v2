@@ -14,14 +14,14 @@
     text-decoration: none
     line-height: 24px
     color: var(--text-primary)
-    border: 1px solid #fe6198
+    border: 1px solid #0093d9
     border-radius: 40px
     padding: 8px 12px
     cursor: pointer
     justify-content: space-between
 
     &[href]
-        color: #fe6198
+        color: #0093d9
 
 .rich-card-button-title
     flex: 1

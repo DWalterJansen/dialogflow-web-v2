@@ -17,7 +17,7 @@
     border-radius: 12px
 
 .rich-card-image
-    width: 100%
+    max-width: 100%
     height: auto
     object-fit: cover
     border-top-right-radius: 10px
@@ -28,16 +28,17 @@
     padding: 16px
 
 .rich-card-title
-    font-size: 20px
-    color: var(--text-title)
+    font-size: 24px
+    font-weight: bold
+    color: var(--image)
     line-height: 24px
     overflow: hidden
     text-overflow: ellipsis
 
 .rich-card-subtitle
     font-size: 16px
-    line-height: 24px
-    color: var(--text-subtitle)
+    line-height: 32px
+    color: var(--text-element)
 
 .rich-card-text
     line-height: 24px

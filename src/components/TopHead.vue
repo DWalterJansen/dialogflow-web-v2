@@ -45,7 +45,7 @@
 
 .top-head-title
   font-size: 24px
-  color: var(--text-title)
+  color: var(--image)
   line-height: 15px
 
 .top-head-subtitle
