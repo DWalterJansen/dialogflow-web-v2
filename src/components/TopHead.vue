@@ -1,7 +1,7 @@
 <template>
   <header class="top-head">
     <div class="top-head-container">
-      <img class="top-head-icon" src="https://i.imgur.com/Y6N0N3s.png" :alt="agent.displayName" />
+      <a href="https://hhelp.io/#/" target="_blank"><img class="top-head-icon" src="https://i.imgur.com/Y6N0N3s.png" :alt="agent.displayName" /></a>
       <div class="top-head-info">
         <!-- <div class="top-head-title">dr.presente</div> -->
         <div class="top-head-title">Suspeita de anemia?</div>
@@ -47,7 +47,6 @@
   font-size: 24px
   color: var(--text-title)
   line-height: 15px
-  font-weight: bold
 
 .top-head-subtitle
   color: var(--text-title)
